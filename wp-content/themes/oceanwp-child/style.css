@@ -1,0 +1,46 @@
+/*
+Theme Name: OceanWP Child
+Author: Sebastian, Lasse og Martin
+Template: oceanwp
+*/
+
+/*Da det ikke ville overskrider Elementor, har vi været nødt til at anvende !important de steder, hvor Elementor har været inde over*/
+
+/*Fjerner en top-bar der var hen over headeren*/
+#top-bar-wrap {
+    display: none;
+}
+
+/*Fjerner footer-bar*/
+#footer-bottom {
+    display: none;
+}
+
+/*Fjerner en footer-widget-bar, der var under footeren*/
+#footer-widgets {
+    display: none;
+}
+
+/*Ændrer farven på knap - der er anvendt !important, da det ellers ikke fungerer*/
+.elementor-button {
+    background-color: #b30000 !important;
+}
+
+/*Ændrer farven på menu-punkterne*/
+#site-navigation-wrap .dropdown-menu>li>a {
+    color: black !important;
+}
+
+/*Ændrer farven på overskrifterne til rød*/
+.elementor-50 .elementor-element.elementor-element-b5ce55f.elementor-widget-heading .elementor-heading-title  {
+    color: #b30000 !important;
+}
+.elementor-50 .elementor-element.elementor-element-41c74d8.elementor-widget-heading .elementor-heading-title {
+    color: #b30000 !important;
+}
+.elementor-50 .elementor-element.elementor-element-650d752.elementor-widget-heading .elementor-heading-title {
+    color: #b30000 !important;
+}
+.elementor-50 .elementor-element.elementor-element-320b29b.elementor-widget-heading .elementor-heading-title {
+    color: #b30000 !important;
+}
